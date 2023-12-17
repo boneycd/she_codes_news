@@ -42,7 +42,7 @@
 
 ## Project Features
 [x] Order stories by date
-![ Screenshot of Stories displayed in the order of newest to the oldest creation date ]( screenshots\OrderStoriesByDate.png )
+![ Screenshot of Stories displayed in the order of newest to the oldest creation date ]( screenshots/OrderStoriesByDate.png )
 
 [x] Styled "new story" form
 ![ {{ Screenshot of my "New Story" form }} ]
