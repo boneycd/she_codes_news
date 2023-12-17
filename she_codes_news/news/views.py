@@ -36,12 +36,12 @@ class AddStoryView(generic.CreateView):
         return super().form_valid(form)
 
 # modification 
-class EditStoryView(generic.CreateView):
-    form_class = StoryForm 
-    model = NewsStory
-    context_object_name = 'storyform'
-    template_name = 'news/editStory.html'
-    success_url = reverse_lazy('news:index')
+# class EditStoryView(generic.CreateView):
+#     form_class = StoryForm 
+#     model = NewsStory
+#     context_object_name = 'storyform'
+#     template_name = 'news/editStory.html'
+#     success_url = reverse_lazy('news:index')
 
    
 
