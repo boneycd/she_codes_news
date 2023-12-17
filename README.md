@@ -1,6 +1,6 @@
-# {{ your_name_here }} - She Codes News Project
+# Boney Davis - She Codes News Project
 
-## About This Project{{ Give a brief description of your project here. What is it for, how do you useit? }}
+## About This Project - Created a website for She Codes News that allows users to read news stories, and authors to create them. Users can create profiles to publish stories and view profile information for the authors.
 
 
 ## How To Run This Code
@@ -38,42 +38,38 @@
     }}
 
 ## Database Schema
-![ {{ My ERD }} ]( {{ ./plus-django-news-project-template\screenshots\ERD.png }} )
+![ My ERD ]( screenshots/ERD.png )
 
 ## Project Features
 [x] Order stories by date
 ![ Screenshot of Stories displayed in the order of newest to the oldest creation date ]( screenshots/OrderStoriesByDate.png )
 
 [x] Styled "new story" form
-![ {{ Screenshot of my "New Story" form }} ]
-( {{ ./plus-django-news-project-template\screenshots\StyledNEWSTORYform.png }} )
+![ Screenshot of my "New Story" form ]( screenshots/StyledNEWSTORYform.png )
 
 [x] Story images
-![ {{ Screenshot of images in my stories. Added a field to the NewsStory model for an image url and use this image url rather than the default images provided in the starter. }} ]
-( {{ ./plus-django-news-project-template\screenshots\StoryImages.png }} )
+![ Screenshot of images in my stories. Added a field to the NewsStory model for an image url and use this image url rather than the default images provided in the starter.]( screenshots/StoryImages.png  )
 
 [x] Log-in/log-out
-![ {{ Screenshot of Log-in , Log-out , Write a new story links}} ]
-( {{ ./plus-django-news-project-template\screenshots\LoginLogout.png }} )
+![ Screenshot of Log-in , Log-out , Write a new story links]( screenshots/LoginLogout.png )
 
 [x] "Account view" page
-![ {{ Screenshot of profile information page , shows three user profiles created for this website  }} ]
-( {{ ./plus-django-news-project-template\screenshots\AccountViewPage.png }} )
+![ Screenshot of profile information page , shows three user profiles created for this website ]( screenshots/AccountViewPage.png )
 
 [x] "Create Account" page
-![ {{ Screenshot of Create Account page }} ]( {{ ./plus-django-news-project-template\screenshots\CreateAccount.png }} )
+![ Screenshot of Create Account page ]( screenshots/CreateAccount.png )
 
 [x] View stories by author
-![ {{ Screenshot of stories by the three authors individually}} ]( {{ ./plus-django-news-project-template\screenshots\ViewStoriesByAuthor.png }} )
+![ Screenshot of stories by the three authors individually]( screenshots/ViewStoriesByAuthor.png )
 
 [x] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in
-![ {{ Screenshot of the webpage showing -"Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in  }} ]( {{ ./plus-django-news-project-template\screenshots\LoginLogoutButtonVisibility.png}} )
+![ Screenshot of the webpage showing -"Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in  ]( screenshots/LoginLogoutButtonVisibility.png )
 
 [x] "Create Story" functionality only available when user is logged in
-![ {{ Screenshot which shows "Write New Story Form" is only available when the user is logged in , Otherwise it says "Please login to write a new story. }} ]( {{ ./plus-django-news-project-template\screenshots\CreateStoryAvailability.png}} )
+![ Screenshot which shows "Write New Story Form" is only available when the user is logged in , Otherwise it says "Please login to write a new story.  ]( screenshots/CreateStoryAvailability.png )
 
 
 ## Additional Features:
 
 [x] Add the ability to delete stories (Could not work on permissions part , This is just a page to delete stories).
-![ {{ Delete Story link & warning message before submission}} ]( {{ ./plus-django-news-project-template\screenshots\DeleteStory.png }} )
+![ Delete Story link & warning message before submission ]( screenshots/DeleteStory.png  )
