@@ -1,10 +1,10 @@
 # Boney Davis - She Codes News Project
 
-## About This Project - Created a website for She Codes News that allows users to read news stories, and authors to create them. Users can create profiles to publish stories and view profile information for the authors.
+## About This Project - Created a website for She Codes News that allows users to read news stories, and authors to create them. Authors can create profiles to publish stories and view the profile information for the authors.
 
 
 ## How To Run This Code
-{{
+
     STEP 1:
  copy the repo over to your own Github account 
 
@@ -35,7 +35,7 @@
  Now make the initial migrations: `python manage.py migrate`
  Finally, check that the starter code is working correctly by running the server:`python manage.py runserver`
 
-    }}
+
 
 ## Database Schema
 ![ My ERD ]( screenshots/ERD.png )
