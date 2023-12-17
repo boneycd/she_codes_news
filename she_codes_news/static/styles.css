@@ -3,14 +3,19 @@
 body {
     background-color: rgb(240, 239, 239);
 }
-
+/* extra header */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #000;
+    /* new */
+    background-color: #86BBD8;
+    color: black ;
 }
 
+
+  
 /* img {
     filter: grayscale(100%);
 } */
@@ -51,4 +56,31 @@ a {
 
 a, p {
     font-family: monospace;
+}
+
+/* test  */
+
+
+button,
+input,
+.story-card button a,
+.my-form textarea {
+    color: var(--light-font);
+    justify-content: center;
+    /* border: unset; */
+    padding-bottom: 2rem;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: var(--bold-font);
+    margin-top: 10px;
+    /* background-color: var(--bg-dark); */
+    /* color: var(--light-font);    */
+} 
+
+.profile {
+    display: block;
+    flex-flow: column space-between;
+    margin-bottom: 100px;
+    padding: 100px;
 }

@@ -1,3 +1,5 @@
+
+<!-- <link rel="stylesheet" href="styles.css"> -->
 <div class="story-card" id="story-card-{{ position }}">
     <a href="{% url 'news:story' story.id %}">
         {% if story.image %}
@@ -10,5 +12,9 @@
             <h4>{{ story.author }}</h4>
             <h4>{{ story.pub_date }}</h4>
         </div>
+        
     </a>
+    
 </div>
+
+

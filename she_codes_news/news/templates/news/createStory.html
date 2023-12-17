@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<form action="" method="post">
+
+<section class="form-section">
+    <h2>Publish your story!</h2>
+<form action="" method="post" class="my-form">
 	{% csrf_token %}
 	{{ form.as_p }}
-	<input type="submit" value="submit">
+	<input class="form-button" type="submit" value="submit">
 </form>
+
 {% endblock %}

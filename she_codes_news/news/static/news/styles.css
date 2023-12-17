@@ -10,6 +10,12 @@
     object-fit: cover;
 }
 
+/* .profile {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2pt;
+} */
+
 #latest-stories {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -84,3 +90,6 @@
     margin: 0 0 10px 10px;
     width: 50%;
 }
+
+
+
